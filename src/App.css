@@ -1,22 +1,90 @@
-.App {
-  text-align: center;
+.main-container{
+  width:80%;
+  height:50%;
+  background-color: #042848;
+  color:white;
+  border-radius: 20px;
+  padding:10px 10px;
+  background-image: url("https://thumbs.dreamstime.com/b/technologie-de-blockchain-zone-d-informations-globale-la-terre-plan%C3%A8te-protection-et-traitement-des-donn%C3%A9es-num%C3%A9riques-132829231.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
+.text-card{
+  text-align: right;
+  font-size: 30px;
+  padding-right: 15%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo-card img{
+ width:30%;
+}
+.number-serie{
+  color:#c2a72d;
+  background-color: rgba(209, 184, 73, 0.2);
+  font-size: 5em
+}
+.number-code{
+  text-align: right;
+  font-size: 90px;
+  margin-top: 10px;
+}
+.year-card{
+  text-align: right;
+  margin-bottom: -40px;
+  font-size: 30px;
+}
+.valid-code{
+  font-size: 20px;
+  text-align: right;
+  margin-top: -50px;
+}
+.valid-card{
+  text-align: right;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.credit-card-content{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #09d3ac;
+.number-card{
+  flex: 1;
+  padding-right: 40px;
+}
+.text-code{
+  padding:0;
+  font-size: 3em
+}
+.credit-logo{
+  width:20%;
+  display:flex;
+  align-items: flex-end;
+  padding-bottom:20px;
+}
+.credit-logo img {
+  width:100%;
+}
+.credit-card-BNA{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2em
+}
+.thru-valid{
+  display:flex;
+  align-items: center;
+}
+.icone-card{
+  margin-top: -60px;
+}
+.formulaire{
+  margin-left: 35%;
+  width:20%;
+  height: 20%;
+  
+}
+#num-card,#month-year,#name{
+font-size: 30px;
+text-align: center;
+color:red;
+border:solid 2px blue;
+border-radius: 10px;
 }
